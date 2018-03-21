@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   whoami:
-    image: emilevauge/whoami
+    image: registry.services.alin.be/emilevauge/whoami
     deploy:
       replicas: 1
       resources:
